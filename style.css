@@ -1,0 +1,121 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: #5a537b;
+  }
+  
+  .main-container {
+    width: 550px;
+    height: 730px;
+    margin: 25px auto;
+    box-sizing: border-box;
+  }
+  
+  .hero-container {
+    width: 100%;
+    /* height: 285px; */
+    margin-top: 0;
+    background: #6943ff;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+  }
+  
+  #hero-header {
+    width: 448px;
+    height: 38px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+  }
+  
+  /* #input-rectangle {
+    border: 2px solid #b295ff;
+    border-radius: 5px;
+    width: 117px;
+    width: fit-content
+    height: 83px;
+    margin: 30px auto 25px auto;
+    box-sizing: border-box;
+    
+    text-align: center;
+  } */
+  
+  #input-display {
+    display: block;
+    border: 2px solid #b295ff;
+    border-radius: 5px;
+    /* box-sizing: border-box; */
+    color: #ffffff;
+    background: #6943ff;
+    text-align: center;
+    width: 97px;
+    /* max-width: 211px; */
+    height: 51.23px;
+    font-family: "Inter";
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    margin: 30px auto 25px auto;
+    padding: 15px 10px;
+  }
+  
+  #convert-btn {
+    cursor: pointer;
+    background: #ffffff;
+    color: #3d3d3d;
+    width: 117px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 27.5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 35px;
+  }
+  
+  .content-container {
+    background: #f4f4f4;
+    width: 100%;
+    height: 444px;
+    box-sizing: border-box;
+    padding: 36px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .content-child {
+    width: 500px;
+    height: 108.5px;
+    text-align: center;
+    background: #ffffff;
+    /* padding: 31px 77px 18.5px 77px; */
+    box-sizing: border-box;
+  }
+  
+  .content-child h3 {
+    text-align: center;
+    width: 346px;
+    height: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #5a537b;
+    margin: 31px auto 9px auto;
+  }
+  
+  .content-child p {
+    margin: 0 auto 18.5px auto;
+    width: 346px;
+    height: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+  }
